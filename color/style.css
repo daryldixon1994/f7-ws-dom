@@ -1,0 +1,32 @@
+body {
+  /* border: 1px black solid;  */
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+button {
+  all: unset;
+  background-color: blueviolet;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: white;
+  border: 2px black solid;
+  cursor: pointer;
+  /* box-shadow: 4px 4px 0px black;  */
+  transition: 0.3s ease;
+}
+button:active {
+  box-shadow: 0px 0px 0px black;
+  transform: scale(0.95);
+  transition: 0.3s ease;
+}
+#color-box{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

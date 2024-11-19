@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  all: unset;
+  padding: 15px 25px;
+  background-color: blueviolet;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+}
+/* button:active {
+  background-color: rgba(0, 0, 255, 0.662);
+} */

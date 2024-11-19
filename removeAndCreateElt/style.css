@@ -1,0 +1,15 @@
+i {
+  cursor: pointer;
+}
+ul {
+  background-color: darkgray;
+  padding: 20px;
+  height: 200px;
+}
+li {
+  list-style-type: none;
+}
+ul div {
+  background-color: blueviolet;
+  height: 50px;
+}

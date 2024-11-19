@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  /* min-height: 200vh; */
+  background-color: beige;
+}
+#circle {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(249, 194, 127);
+  border-radius: 50%;
+  position: fixed;
+  top: 25%;
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#child-circle {
+  width: 180px;
+  height: 180px;
+  background-color: rgb(213, 67, 211);
+  border-radius: 50%;
+}
